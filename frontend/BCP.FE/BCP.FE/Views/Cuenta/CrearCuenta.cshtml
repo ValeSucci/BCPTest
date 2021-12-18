@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewBag.Title = "CrearCuenta";
+}
+
+<h2>CrearCuenta</h2>
+@if (ViewBag.Alert != null)
+{
+    <div class="alert alert-dismissable alert-info">
+        <button type="button" class="close" data-dismiss="alert">
+            &times;
+        </button>
+        <strong>Aviso!</strong> @ViewBag.Alert
+    </div>
+}
+<div class="container">
+    <form method="POST">
+        <div class="row">
+            <div class="col-25">
+                <label for="lnro">Número</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="nroCuenta" name="nroCuenta">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="lmoneda">Moneda</label>
+            </div>
+            <div class="col-75">
+                <select id="moneda" name="moneda">
+                    <option value="BOL">BOLIVIANOS</option>
+                    <option value="USD">DOLARES</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="ltipo">Tipo</label>
+            </div>
+            <div class="col-75">
+                <select id="tipo" name="tipo">
+                    <option value="AHO">CAJA DE AHORRO</option>
+                    <option value="CTE">CUENTA CORRIENTE</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="lnombre">Nombre</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="nombre" name="nombre">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <input type="submit" value="Aceptar">
+        </div>
+    </form>
+</div>
+

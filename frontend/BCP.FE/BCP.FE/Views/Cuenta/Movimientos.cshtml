@@ -1,0 +1,79 @@
+﻿
+@{
+    ViewBag.Title = "Movimientos";
+}
+
+<h2>Movimientos</h2>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-25">
+            <label for="lnro">Cuenta</label>
+        </div>
+        <div class="col-75">
+            @ViewData["nro"]
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-25">
+            <label for="lnombre">Nombre Cta</label>
+        </div>
+        <div class="col-75">
+            @ViewData["nombre"]
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-25">
+            <label for="lsaldo">Saldo</label>
+        </div>
+        <div class="col-75">
+            @ViewData["saldo"]
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-25">
+            <label for="lmoneda">Moneda</label>
+        </div>
+        <div class="col-75">
+            @ViewData["moneda"]
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-25">
+            <label for="lmoneda">Moneda</label>
+        </div>
+        <div class="col-75">
+            <table id="cuenta">
+                <tr>
+                    <th>Fecha</th>
+                    <th>Importe</th>
+                </tr>
+                @foreach (var m in Model)
+                {
+                    if (@m.tipo == "D")
+                    {
+                        <tr>
+                            <td>@m.fecha</td>
+                            <td>- @m.importe</td>
+                        </tr>
+                    }
+                    else
+                    {
+                        <tr>
+                            <td>@m.fecha</td>
+                            <td>@m.importe</td>
+                        </tr>
+                    }
+
+                }
+            </table>
+        </div>
+    </div>
+
+</div>
+
+

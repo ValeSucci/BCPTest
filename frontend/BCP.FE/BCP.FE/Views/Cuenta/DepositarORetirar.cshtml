@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "Depositar O Retirar";
+}
+
+<h2>DepositarORetirar</h2>
+@if (ViewBag.Alert != null)
+{
+    <div class="alert alert-dismissable alert-info">
+        <button type="button" class="close" data-dismiss="alert">
+            &times;
+        </button>
+        <strong>Aviso!</strong> @ViewBag.Alert
+    </div>
+}
+<div class="container">
+    <form method="POST">
+        <div class="row">
+            <div class="col-25">
+                <label for="lnro">Cuenta</label>
+            </div>
+            <div class="col-75">
+                <select id="nroCuenta" name="nroCuenta">
+                    @foreach (var c in Model)
+                    {
+                        <option value="@c.nroCuenta">@c.nroCuenta</option>
+                    }
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="limporte">Monto</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="importe" name="importe">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <input name="submit" type="submit" id="retiro" value="Retiro">
+            <input name="submit" type="submit" id="deposito" value="Deposito">
+        </div>
+    </form>
+</div>
+
+

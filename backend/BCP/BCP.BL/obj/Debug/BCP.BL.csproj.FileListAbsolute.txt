@@ -1,0 +1,11 @@
+E:\DevRepos\BCPDevTest\backend\BCP\BCP.BL\bin\Debug\BCP.BL.dll
+E:\DevRepos\BCPDevTest\backend\BCP\BCP.BL\bin\Debug\BCP.BL.pdb
+E:\DevRepos\BCPDevTest\backend\BCP\BCP.BL\bin\Debug\AutoMapper.dll
+E:\DevRepos\BCPDevTest\backend\BCP\BCP.BL\bin\Debug\BCP.DAL.dll
+E:\DevRepos\BCPDevTest\backend\BCP\BCP.BL\bin\Debug\BCP.DAL.pdb
+E:\DevRepos\BCPDevTest\backend\BCP\BCP.BL\bin\Debug\AutoMapper.xml
+E:\DevRepos\BCPDevTest\backend\BCP\BCP.BL\obj\Debug\BCP.BL.csproj.AssemblyReference.cache
+E:\DevRepos\BCPDevTest\backend\BCP\BCP.BL\obj\Debug\BCP.BL.csproj.CoreCompileInputs.cache
+E:\DevRepos\BCPDevTest\backend\BCP\BCP.BL\obj\Debug\BCP.BL.csproj.CopyComplete
+E:\DevRepos\BCPDevTest\backend\BCP\BCP.BL\obj\Debug\BCP.BL.dll
+E:\DevRepos\BCPDevTest\backend\BCP\BCP.BL\obj\Debug\BCP.BL.pdb

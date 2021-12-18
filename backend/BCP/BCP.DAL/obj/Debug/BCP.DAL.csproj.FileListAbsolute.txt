@@ -1,0 +1,5 @@
+E:\DevRepos\BCPDevTest\backend\BCP\BCP.DAL\bin\Debug\BCP.DAL.dll
+E:\DevRepos\BCPDevTest\backend\BCP\BCP.DAL\bin\Debug\BCP.DAL.pdb
+E:\DevRepos\BCPDevTest\backend\BCP\BCP.DAL\obj\Debug\BCP.DAL.csproj.CoreCompileInputs.cache
+E:\DevRepos\BCPDevTest\backend\BCP\BCP.DAL\obj\Debug\BCP.DAL.dll
+E:\DevRepos\BCPDevTest\backend\BCP\BCP.DAL\obj\Debug\BCP.DAL.pdb
